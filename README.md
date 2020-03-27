@@ -11,6 +11,12 @@ Make sure to install all the required libraries beforehand.
 
 
 
+
+
+Run the movierecc.py beforehand on a seperate terminal.
+
+
+
 Also,modify the address of the .csv files a.c.t where you store them.
 
 
