@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(https://wallpaperplay.com/walls/full/c/4/1/145126.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Sandblack_demo.otf);
+}
+
+
+h6{
+    float: right;
+    display: inline-block;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+
+}
+
+h6:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.title{
+    position: absolute;
+    font-style: oblique;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.movieTitle{
+    font-family: cursive;
+    position:absolute;
+    top:60%;
+    left:10%;
+}
+.title h1{
+    color: #ffffff;
+    font-size: 58px;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#textbox{
+    position: relative;
+    align-self: left;
+    height: 35px;
+    font-size: 15px;
+}
+
+.button{
+    position: absolute;
+    top: 53%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 12px;
+    background-color: darkslategrey;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.start{
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+
+#movieTitle{
+    color: #ffffff;
+    text-decoration: none;
+}
+h3{
+    position:absolute;
+    left:50%;
+    height:120px;
+    color:#0f0f0f;
+}
+table{
+    position: relative;
+    width:100%;
+    background-color:#ffa500; 
+    background-image: url(https://lh3.googleusercontent.com/proxy/y-ew8OAt8vj5-1egVaM7Wjg83WSxM4uT5q1aJQ6jeWbzyN9Iemmzi0eXMTNt9sL6-HocisOITELZc_spzMdLjaDyrZelL7gA2Gx7);  
+    color:#ffffff;
+    height: 100vh;
+    
+    background-position: center;
+}
+h1{
+    text-align: left;
+}
+td{
+    height:200px;
+}
+th{
+    height:120px;
+}
+a{
+    color:#ffffff;
+}
+table td{
+    border:inset 1px #000;
+}
