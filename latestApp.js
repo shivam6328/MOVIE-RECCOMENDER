@@ -72,6 +72,7 @@ button.addEventListener('click' , function(){
  const optns = {
    method: 'POST',
    body: JSON.stringify(movieName.value),
+   mode: 'no-cors'
 }
 
 // send POST request
